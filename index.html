@@ -7,9 +7,61 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
-        
-      </main>
-      <script src="app.js"></script>
-    </body>
+    <!-- header -->
+    <header id="home">
+        <!-- navbar -->
+        <nav id="nav">
+            <div class="nav_center">
+                <!-- nav header -->
+                <div class="nav_header">
+                    <img src="./images/image-icon.svg" alt="the company logo" class="logo">
+                    <button class="nav_toggle"><img src="./images/three-horizontal-lines-icon.svg"></button>
+                </div>
+                <!-- links -->
+                <div class="links_container">
+                    <ul class="links">
+                        <li><a href="#home" class="scroll_link">Home</a></li>
+                        <li><a href="#about" class="scroll_link">About</a></li>
+                        <li><a href="#services" class="scroll_link">Services</a></li>
+                        <li><a href="#tours" class="scroll_link">Tours</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <h1>Scroll Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem corporis eum recusandae reiciendis fuga possimus necessitatibus, molestias ipsam explicabo nihil quam ab nesciunt quae totam debitis quibusdam accusantium dignissimos.</p>
+                <a href="#tours" class="scroll_link btn btn_white">Explore Tours</a>
+            </div>
+        </div>
+    </header>
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>About <span>us</span></h2>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="services" class="section">
+        <div class="title">
+            <h2>Our <span>services</span></h2>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="tours" class="section">
+        <div class="title">
+            <h2>Featured <span>tours</span></h2>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+        <p>Copyright &copy; backroads trave tour company <span id="date"></span>. All rights reserved.
+        </p>
+    </footer>
+    <!-- back to top button -->
+    <a href="#home" class="scroll_link top_link"><img src="./images/round-black-top-arrow-icon.svg" alt="arrow top icon"></a>
+    <script src="app.js"></script>
+</body>
 </html>
